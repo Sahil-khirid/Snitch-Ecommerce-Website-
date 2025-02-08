@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+
+		body{
+			margin: 0px;
+			background:#FFFFEC;
+			overflow-y:hidden;
+		}
+		ul{
+			background:black;
+			list-style-type: none;
+			padding: 0px;
+			margin: 0px;
+			overflow: hidden;
+
+		}
+
+		li a{
+			float: right;
+			text-decoration: none;
+			padding: 15px 16px;
+			color:white;
+
+		}
+
+		@font-face{
+			font-family:snitch ;
+			src:url("webfont/funky.ttf") ;
+
+		}
+
+		#brandname{
+			float: left;
+			font-family: snitch;
+			font-size:60px;
+
+
+		}
+		
+
+		@font-face{
+			font-family: product;
+			src: url("webfont/Fliren.otf");
+		}	
+
+		
+
+		.menu{
+			font-size: 20px;
+			margin-top: 18px;
+
+		}
+
+		#discount{
+			margin-top: -10px;
+			width: 100%;
+		}
+
+		.side{
+			width: 100%;
+			margin-left: 3%;
+		}
+		#product{
+				font-family: product;
+				text-align: center;
+				color: #0D27E2;
+
+		}
+
+		.flex1{
+			display: flex;
+		
+		}
+
+		.top_product{
+			
+			width: 20%;
+			height: 300px;
+			margin: 40px;
+			margin-left: 30px;
+
+		}
+		
+
+		.flex-item{
+
+			width: 300px;
+			margin: 50px;
+			height: 450px;
+			margin-left: 100px;
+
+		}
+		.flex-item:hover{
+				box-shadow: 5px 1px 10px 5px;
+		}
+
+		#Product_like{
+			text-align: center;
+			color:black;
+			font-family:Wistok;
+		}
+
+		@font-face{
+			font-family:Wistok ;
+			src:url("webfont/Wistok.otf") ;
+
+		}
+
+		#footer{
+
+			margin-bottom: -1px;
+			width: 100%;
+			background: #D2D2D2;
+			padding: 10px;
+			
+		}
+
+
+
+		
+	</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+</head>
+<body>
+	<div>
+		<ul>
+		<li id="brandname"><a href="">Snitch</li>
+		<li class="menu"><a href="login.html"><span class="fa fa-user"> SignUp/Login</span></a> </li>
+		<li class="menu"><a href="supplier.html"><span class="fa fa-users"> Become Supplier</span></a> </li>
+		</ul>
+	</div>
+
+	<div id=discount>
+		<img src="pics/discountsnitch.png">
+	</div>
+
+	<div class="container-fluid">
+
+		<div id="slidingImage" class="carousel slide" data-ride="carousel">	
+
+		<ol class="carousel-indicators">
+			<li data-target="#slidingImage" data-slide-to="0" class="active"></li>
+			<li data-target="#slidingImage" data-slide-to="1" ></li>
+		</ol>		
+		
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="pics/new.jpg">
+				</div>
+			
+
+			
+				<div class="item">
+					<img src="pics/urban.jpg">
+				</div>
+			</div>
+
+		
+		
+		</div><!-- end of carousel slide-->
+   </div><!-- end of container-->
+
+	<div >
+		<h1 id="product">______________Get Discount On Top Product_________________</h1>
+	</div>
+
+	<div class="flex1">	
+        <div class="top_product">
+			<img src="pics/shoes.jpg">
+
+		</div>
+
+		<div class="top_product">
+			<img src="pics/watch.jpg">
+		</div>
+
+		<div class="top_product">
+			<img src="pics/belt.jpg">
+		</div>
+
+		<div class="top_product">
+			<img src="pics/bracelet.jpg">
+		</div>
+	</div>
+
+	<div>
+		<h1 id=Product_like>Tailored for Every Occasion: Wedding, Formal, & Casual Wear</h1>
+	</div>
+
+	<div class="flex1">
+		
+		<div class="flex-item">
+			<a href="wedding.html">
+			<img src="pics/hph.png">
+			</a>
+	
+		</div>
+			
+		<div class="flex-item">
+			<a href="formal.html">
+			<img src="pics/formal.jpg">
+			</a>
+		</div>
+
+		<div class="flex-item">
+			<a href="casual.html">
+			<img src="pics/casual.png">
+		    </a>
+		</div>
+		
+	</div>
+
+	<div class="container-fluid well text-center" id="footer">
+
+    <div class="row">
+      <div class="col-sm-3">
+        <h3>Corporate Address</h3>
+        <p>Shinath Tower,shivaji Nagar</p>
+        <p>Pune,Maharashtra Pin 411025</p>
+        <p>For Query <span class="fa fa-phone"> 9049021404</span>
+        <p>Write Us: <span class="fa fa-envelope"> info@burgrill.com</span>
+
+      </div>
+
+      <div class="col-sm-3">
+        <h3>Main Offical Address</h3>
+        <p>Ashowk Tower,shivaji Nagar</p>
+        <p>Pune,Maharashtra Pin 411028</p>
+        <p>For Query:<span class="fa fa-phone"> 9087821404</span>
+        <p>Write Us:<span class="fa fa-envelope"> info@snitch.com</span>
+      </div>
+
+
+      <div class="col-sm-3">
+         <h3>Social Media</h3>
+         <p> <a href="#">Instagram</a></p>
+         <p> <a href="#burger">Facebook</a></p>
+         <p> <a href="#">Telegram</a> </li>
+         <p> <a href="#">Contact Us</a></p>
+      </div>
+
+      </div>
+
+    </div>
+ 
+
+    
+    
+
+</body>
+</html>

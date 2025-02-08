@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+    	.formclass{
+    		width: 30%;
+    		background-color: rgba(0, 0, 0, 0.8);
+    		padding: 30px;
+    		margin-top: 5%;
+    		border: none;
+    		height: 400px;
+    		animation-name: abc;
+    		animation-duration: 5s;
+    		margin-left: 20%;
+
+    	
+    	}
+
+    	@keyframes abc{
+    		from{
+    			margin-left: -35%;
+    		}
+    		to{
+    			margin-right: 20%;
+    		}
+    	}
+
+    	.butn{
+    		padding: 10px;
+    		width: 100%;
+    	}
+
+    	.jumbotron{
+    		background-color: limegreen;
+    		padding: 7px;
+    		font-family: snitch;
+			
+    	}
+
+    	body{
+    		background-image:url("pics/login.jpeg") ;
+    		background-repeat: no-repeat;
+    		
+    	}
+
+    	@font-face{
+			font-family:snitch ;
+			src:url("webfont/funky.ttf") ;
+
+		}
+
+    	
+		
+		
+
+		
+
+
+    	
+    </style>
+
+</head>
+<body>
+	<div class="jumbotron">
+		<h1>Snitch</h1>
+	</div>
+
+	<div class="container">
+	
+			
+		<form class="formclass well">
+			<h3 style="color:gold;">Welcome!!</h3>
+			<div class="form-group">
+				<label style="color:gold;">Login</label>
+				<input type="text" name="login" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<label style="color:gold;">Password</label>
+				<input type="text" name="pass" class="form-control">
+			</div>
+			
+			<button class="btn btn-success butn">Coninue</button>
+		   
+			<h5 style="color:white;">Dont have account? <a href="signup.html">Sign Up</a> Here</h5>
+	
+		</form>
+	   </div>
+  
+
+
+</body>
+</html>
